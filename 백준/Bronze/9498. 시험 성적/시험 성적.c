@@ -1,29 +1,23 @@
 #include <stdio.h>
 
 int main(void){
-    int s;
-    char g;
+    int a;
     
-  
-    scanf("%d", &s);
+    scanf("%d", &a);
     
-    if(s >= 90 && s <= 100){ 
-        g = 'A';
+    if(a <= 100 && a >= 90){
+        printf("A");
     }
-    else if(s >= 80 && s <= 89){ 
-        g = 'B';
+    else if(a <= 89 && a >= 80){
+        printf("B");
     }
-    else if(s >= 70 && s <= 79){ 
-        g = 'C';
+    else if(a <= 79 && a >= 70){
+        printf("C");
     }
-    else if(s >= 60 && s <= 69){ 
-        g = 'D';
+    else if(a <= 69 && a >= 60){
+        printf("D");
     }
-    else {
-        g = 'F';
+    else{
+        printf("F");
     }
-   
-    printf("%c", g);
-    return 0;
- 
 }
